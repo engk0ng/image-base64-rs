@@ -3,7 +3,7 @@ extern crate regex;
 
 use std::fs::File;
 use rustc_serialize::base64::{FromBase64, ToBase64, MIME};
-use rustc_serialize::hex::{ToHex};
+use rustc_serialize::hex::ToHex;
 use regex::Regex;
 use std::io::Read;
 use std::string::String;
